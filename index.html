@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Creator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="input">
+        <h1>Shape Generator</h1>
+        <p>Select a shape and enter a Quantity</p>
+        <div>
+        <input type="radio" name="choice" id="circle" value="circle">Circle
+        <input type="radio" name="choice" id="square" value="square">Square
+        <input type="radio" name="choice" id="rectangle" value="rectangle">Rectangle
+        <input type="radio" name="choice" id="oval" value="oval">Oval
+    </div>
+        <!-- ol>li*5 -->
+        <!-- <ol> 
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol> -->
+        <div>
+        <input type="number" id="number" name="shape">
+        <input type="color" id="color" name="color">
+        <button id="button">Generator</button>
+        </div>
+
+   </div>
+
+   <div id="Container">
+    <div class="box" id="box"></div>
+   </div>
+
+
+<script src="./app.js"></script>
+</body>
+</html>

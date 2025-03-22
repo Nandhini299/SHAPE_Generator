@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding: 0px;
+    align-items: center;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+#input
+{
+    background-image: url("https://cdn.pixabay.com/photo/2017/07/09/18/22/background-2487757_1280.jpg");
+    width: 100vw;
+    height: 60vh;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: floralwhite;
+    /* top:30px; */
+    /* padding:10px; */
+    gap: 10px;
+}
+
+h1{
+    font-size: 4em;
+}
+
+p{
+    font-size: 1.4em;
+
+}
+
+#number
+{
+    width:150px;
+    height: 40px;
+    font-size: 20px;
+    padding: 0px;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color:lavender;
+    color:black;
+    border: none;
+
+}
+
+.circle
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color:white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50% ;
+    margin: 10px;
+    text-align: center;
+    background-color: darkseagreen;
+}
+
+.square
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin:10px;
+    text-align: center;
+    background-color:rgb(187, 142, 219);
+    color:black;
+}
+
+.rectangle
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    width: 80px;
+    background-color:palevioletred;
+    margin: 10px;
+    text-align: center;
+    color:antiquewhite;
+}
+
+.oval
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color:white;
+    height: 50px;
+    width: 90px;
+    border-radius: 50% ;
+    margin: 10px;
+    text-align: center;
+    background-color:blue;
+}
+
+#box
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
